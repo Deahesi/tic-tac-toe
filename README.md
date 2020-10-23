@@ -1,4 +1,4 @@
-# seafortress
+# tick-tac-toe
 
 ## Project setup
 ```
