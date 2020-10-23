@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@700&display=swap');
+
+$cell-size: 130px;
+
+.main-login {
+  max-width: 600px;
+}
+
+.auth-card {
+  max-width: 800px;
+}
+
+.cross {
+  display: none;
+}
+
+.nav-wrapper {
+  .brand-logo {
+    margin-left: 30px;
+  }
+
+  background-color: #7485ff;
+}
+
+.game {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  margin-top: 40px;
+
+  form {
+    margin-top: 50px;
+  }
+
+  .game-field {
+    display: flex;
+    flex-wrap: wrap;
+    width: $cell-size * 3;
+
+    .enemy-name {
+      margin: 30px 0;
+    }
+
+    .target > .cross {
+      display: block;
+      font-family: 'Helvetica', 'Arial', sans-serif;
+      font-size: 60px;
+      font-weight: bold;
+      text-align: center;
+    }
+
+    .cell {
+      width: $cell-size;
+      height: $cell-size;
+      border: 2px solid #000;
+      color: #000;
+    }
+  }
+}
+
+
+.form-start {
+  max-width: 800px;
+}
+
+.connect-to {
+  margin-top: 40px;
+}
